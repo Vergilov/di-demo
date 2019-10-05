@@ -1,5 +1,6 @@
 package com.vergilov;
 
+import com.vergilov.controllers.ConstructorInjectedController;
 import com.vergilov.controllers.MyController;
 import com.vergilov.controllers.PropertyInjectedController;
 import com.vergilov.controllers.SetterInjectedController;
@@ -19,5 +20,6 @@ public class DiDemoApplication {
 
 		System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
 		System.out.println(ctx.getBean(SetterInjectedController.class).sayHello());
+		System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());
 	}
 }
