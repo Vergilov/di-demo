@@ -1,6 +1,7 @@
-package guru.springframework.controllers;
+package com.vergilov.controllers;
 
-import guru.springframework.services.GreetingServiceImpl;
+
+import com.vergilov.services.GreetingServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 

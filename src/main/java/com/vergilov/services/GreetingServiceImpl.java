@@ -1,10 +1,7 @@
-package guru.springframework.services;
+package com.vergilov.services;
 
 import org.springframework.stereotype.Service;
 
-/**
- * Created by jt on 5/24/17.
- */
 @Service
 public class GreetingServiceImpl implements GreetingService {
 
